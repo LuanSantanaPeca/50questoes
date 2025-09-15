@@ -12,6 +12,11 @@ Componentes:
  25324764-2 - Gabriel Eduardo Diniz
  25016187-2 - Michel Bueno Chacon
  25001459-2 - Eduardo Gritten dos Santos Spohr
-Data:
-Descritivo:
+Data: 15 de setembro de 2025
+Descritivo: Faça um programa que multiplique 8 por 7 e divida por 2
 *******************************************************************************/
+<?php
+$operacao = 8 * 7 / 2;
+
+echo "A multiplicacao de 8 por 7 dividido por 2 é: $operacao";
+?>
