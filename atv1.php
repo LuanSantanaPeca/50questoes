@@ -12,6 +12,14 @@ Componentes:
  25324764-2 - Gabriel Eduardo Diniz
  25016187-2 - Michel Bueno Chacon
  25001459-2 - Eduardo Gritten dos Santos Spohr
-Data:
-Descritivo:
+Data: 15 de setembro de 2025
+Descritivo: Escreva um programa que calcule a soma de dois números
 *******************************************************************************/
+<?php
+$numero1 = 10;
+$numero2 = 20;
+
+$soma = $numero1 + $numero2;
+
+echo "A soma de $numero1 e $numero2 é: $soma";
+?>
