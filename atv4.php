@@ -12,6 +12,14 @@ Componentes:
  25324764-2 - Gabriel Eduardo Diniz
  25016187-2 - Michel Bueno Chacon
  25001459-2 - Eduardo Gritten dos Santos Spohr
-Data:
-Descritivo:
+Data: 15 de setembro de 2025
+Descritivo: Escreva um código que calcule o resto da divisão de 17 por 5
 *******************************************************************************/
+<?php
+$numero1 = 17;
+$numero2 = 5;
+
+$resto = $numero1 % $numero2;
+
+echo "O resto da divisão de $dividendo por $divisor é: $resto";
+?>
