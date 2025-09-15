@@ -12,6 +12,14 @@ Componentes:
  25324764-2 - Gabriel Eduardo Diniz
  25016187-2 - Michel Bueno Chacon
  25001459-2 - Eduardo Gritten dos Santos Spohr
-Data:
-Descritivo:
+Data: 15 de setembro de 2025
+Descritivo: .Crie um programa que eleve 4 à potência de 3
 *******************************************************************************/
+<?php
+$numero1 = 4;
+$numero2 = 3;
+
+$potencia = $numero1 ** $numero2;
+
+echo "A potenciacao de $numero1 por $numero2 é: $potencia";
+?>
