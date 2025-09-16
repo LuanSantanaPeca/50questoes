@@ -14,6 +14,20 @@ Componentes:
  25001459-2 - Eduardo Gritten dos Santos Spohr
  25142481-2 - 
  25356591-2 - Sadrak Araújo Leopoldino
-Data:
-Descritivo:
+Data: 16/09/2025
+Descritivo: Faça um programa que mostre mensagem diferente para manhã, tarde e noite.
 *******************************************************************************/
+<?php
+date_default_timezone_set('America/Sao_Paulo');
+
+
+$hora = date("H");
+
+if ($hora >= 5 && $hora < 12) {
+    echo "Good Morning!";
+} elseif ($hora >= 12 && $hora < 18) {
+    echo "Good Afternoon!";
+} else {
+    echo "Good Night!";
+}
+?>
