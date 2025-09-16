@@ -14,6 +14,16 @@ Componentes:
  25001459-2 - Eduardo Gritten dos Santos Spohr
  25142481-2 - 
  25356591-2 - Sadrak Araújo Leopoldino
-Data:
-Descritivo:
+Data:16/09/2025
+Descritivo: Verifique se NÃO é fim de semana (usando operador lógico NOT)
 *******************************************************************************/
+<?php
+  // 1 = seg, 2 = ter, 3 = qua, 4 = qui, 5 = sex, 6 = sab, 7 = dom
+ $diaSemana = date("N"); 
+ 
+ if (!($diaSemana == 6 || $diaSemana == 7)) {
+     echo "Hoje não é fim de semana.";
+ } else {
+     echo "Hoje é fim de semana.";
+ }
+?>
