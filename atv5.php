@@ -13,7 +13,7 @@ Componentes:
  25016187-2 - Michel Bueno Chacon
  25001459-2 - Eduardo Gritten dos Santos Spohr
 Data: 15 de setembro de 2025
-Descritivo: .Crie um programa que eleve 4 à potência de 3
+Descritivo: Crie um programa que eleve 4 à potência de 3
 *******************************************************************************/
 <?php
 $numero1 = 4;
