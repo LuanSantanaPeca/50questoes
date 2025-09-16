@@ -12,8 +12,19 @@ Componentes:
  25324764-2 - Gabriel Eduardo Diniz
  25016187-2 - Michel Bueno Chacon
  25001459-2 - Eduardo Gritten dos Santos Spohr
- 25142481-2 - 
+ 25142481-2 - Isabelli Azevedo da Silva
  25356591-2 - Sadrak Araújo Leopoldino
-Data:
-Descritivo:
+Data:01/09/2025
+Descritivo: Crie uma condição que verifique se um triângulo é válido
 *******************************************************************************/
+
+<?php
+$a = 3;
+$b = 4;
+$c = 5;
+if ($a + $b > $c && $a + $c > $b && $b + $c > $a) {
+    echo "Triângulo válido<br>";
+} else {
+    echo "Triângulo inválido<br>";
+}
+?>
