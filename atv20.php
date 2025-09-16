@@ -14,6 +14,16 @@ Componentes:
  25001459-2 - Eduardo Gritten dos Santos Spohr
  25142481-2 - 
  25356591-2 - Sadrak Araújo Leopoldino
-Data:
-Descritivo:
+Data: 14 de Setembro de 2025
+Descritivo: Verifique se uma variável é maior ou igual a 100
 *******************************************************************************/
+
+<?php
+$numero = 120;
+
+if ($numero >= 100) {
+    echo "$numero é maior ou igual a 100";
+} else {
+    echo "$numero é menor que 100";
+}
+?>
