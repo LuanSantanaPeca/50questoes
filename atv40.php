@@ -14,6 +14,36 @@ Componentes:
  25001459-2 - Eduardo Gritten dos Santos Spohr
  25142481-2 - 
  25356591-2 - Sadrak Araújo Leopoldino
-Data:
-Descritivo:
+Data: 10 de Setembro de 2025
+Descritivo: Crie uma calculadora simples com switch case
 *******************************************************************************/
+
+<?php
+$num1 = 10;
+$num2 = 5;
+$operacao = "+"; // +, -, *, /
+
+switch ($operacao) {
+    case "+":
+        $resultado = $num1 + $num2;
+        break;
+    case "-":
+        $resultado = $num1 - $num2;
+        break;
+    case "*":
+        $resultado = $num1 * $num2;
+        break;
+    case "/":
+        if ($num2 != 0) {
+            $resultado = $num1 / $num2;
+        } else {
+            $resultado = "Erro: divisão por zero";
+        }
+        break;
+    default:
+        $resultado = "Operação inválida";
+}
+
+echo "Resultado: $resultado\n";
+?>
+
