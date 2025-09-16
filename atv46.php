@@ -14,6 +14,12 @@ Componentes:
  25001459-2 - Eduardo Gritten dos Santos Spohr
  25142481-2 - 
  25356591-2 - Sadrak Araújo Leopoldino
-Data:
-Descritivo:
+Data: 06 de Setembro de 2025
+Descritivo: Crie uma expressão ternária que retorne "Maioridade" ou "Menoridade" baseado na idade
 *******************************************************************************/
+
+<?php
+$idade = 17;
+$classe = ($idade >= 18) ? "Maioridade" : "Menoridade";
+echo "Classe: $classe\n";
+?>
