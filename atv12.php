@@ -14,7 +14,7 @@ Componentes:
  25001459-2 - Eduardo Gritten dos Santos Spohr
  25142481-2 - 
  25356591-2 - Sadrak Araújo Leopoldino
-Data: 16 de seembro de 2025
+Data: 16 de setembro de 2025
 Descritivo: Crie um programa que use += para adicionar 10 a uma variável
 *******************************************************************************/
 <?php
