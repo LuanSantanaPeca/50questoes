@@ -13,7 +13,7 @@ Componentes:
  25016187-2 - Michel Bueno Chacon
  25001459-2 - Eduardo Gritten dos Santos Spohr
 Data: 15 de Setembro de 2025
-Descritivo: 7.Escreva um programa que converta graus Celsius para Fahrenheit (F = C × 9/5 + 32)
+Descritivo: Escreva um programa que converta graus Celsius para Fahrenheit (F = C × 9/5 + 32)
 *******************************************************************************/
 
 <?php
@@ -25,4 +25,5 @@ $fahrenheit = ($celsius * 9/5) + 32;
 
 echo "<h3>Conversão de Celsius para Fahrenheit</h3>";
 echo "$celsius °C = $fahrenheit °F";
+
 ?>
