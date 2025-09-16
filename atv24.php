@@ -14,6 +14,11 @@ Componentes:
  25001459-2 - Eduardo Gritten dos Santos Spohr
  25142481-2 - 
  25356591-2 - Sadrak Araújo Leopoldino
-Data:
-Descritivo:
+Data: 15/09/2025
+Descritivo: Teste se uma variável é diferente de null
 *******************************************************************************/
+<?php
+$var = 0;
+$diferente = ($var !== null) ? "Sim" : "Não";
+echo "Variável é diferente de null? $diferente\n";
+?>
