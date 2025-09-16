@@ -20,6 +20,6 @@ Descritivo: Escreva um código que use /= para reduzir um valor pela metade
 <?php
 $numero = 10;
 echo "Valor original: $numero<br>";
-$numero /= 2; // operador de atribuição /=
+$numero /= 2; // dividindo por 2 com /=
 echo "Metade: $numero";
 ?>
