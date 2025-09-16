@@ -14,6 +14,10 @@ Componentes:
  25001459-2 - Eduardo Gritten dos Santos Spohr
  25142481-2 - 
  25356591-2 - Sadrak Araújo Leopoldino
-Data:
-Descritivo:
+Data: 15 de setembro de 2025
+Descritivo: Compare se null é igual a false
 *******************************************************************************/
+<?php
+$igual = (null == false) ? "Sim" : "Não";
+echo "null é igual a false? $igual\n";
+?>
