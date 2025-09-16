@@ -20,6 +20,6 @@ Descritivo: Faça um script que use *= para dobrar o valor de uma variável
 <?php
 $numero = 8;
 echo "Valor original: $numero<br>";
-$numero *= 2;
+$numero *= 2;//multiplicando por 2 com *=
 echo "Valor dobrado: $numero<br>";
 ?>
