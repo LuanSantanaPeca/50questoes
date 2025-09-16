@@ -14,6 +14,12 @@ Componentes:
  25001459-2 - Eduardo Gritten dos Santos Spohr
  25142481-2 - 
  25356591-2 - Sadrak Araújo Leopoldino
-Data:
-Descritivo:
+Data: 15/09/2025 
+Descritivo: Compare se 10 (string) é igual a 10 (número)
 *******************************************************************************/
+
+<?php
+$igual = ("10" == 10) ? "Sim" : "Não";
+$identico = ("10" === 10)?"Sim" : "Não";
+echo "\"10\" é igual a 10? $igual\n";
+?>
