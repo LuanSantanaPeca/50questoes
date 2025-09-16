@@ -14,6 +14,12 @@ Componentes:
  25001459-2 - Eduardo Gritten dos Santos Spohr
  25142481-2 - 
  25356591-2 - Sadrak Araújo Leopoldino
-Data:
-Descritivo:
+Data: 12 de Setembro de 2025
+Descritivo: Use ternário para verificar se uma pessoa pode votar (idade >=16)
 *******************************************************************************/
+
+<?php
+$idade = 15;
+$pode_votar = ($idade >= 16) ? "Pode votar" : "Não pode votar";
+echo "$pode_votar\n";
+?>
