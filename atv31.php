@@ -19,12 +19,11 @@ Descritivo: Crie uma condição que verifique se uma pessoa é maior de idade
 *******************************************************************************/
 
 <?php
-echo "Digite sua idade:  ";
-$idade = (int) trim(fgets(STDIN));
+$idade = 18; 
 
 if ($idade >= 18) {
-    echo "Você é maior de idade.\n";
+    echo "A pessoa é maior de idade.";
 } else {
-    echo "Você é menor de idade.\n";
+    echo "A pessoa é menor de idade.";
 }
 ?>
