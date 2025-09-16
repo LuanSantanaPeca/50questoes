@@ -12,7 +12,7 @@ Componentes:
  25324764-2 - Gabriel Eduardo Diniz
  25016187-2 - Michel Bueno Chacon
  25001459-2 - Eduardo Gritten dos Santos Spohr
- 25142481-2 - 
+ 25142481-2 - Isabelli Azevedo da Silva
  25356591-2 - Sadrak Araújo Leopoldino
 Data: 15/09/2025
 Descritivo: Teste se uma variável é maior que 100 OU menor que 50
