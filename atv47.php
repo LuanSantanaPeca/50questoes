@@ -14,6 +14,12 @@ Componentes:
  25001459-2 - Eduardo Gritten dos Santos Spohr
  25142481-2 - 
  25356591-2 - Sadrak Araújo Leopoldino
-Data:
-Descritivo:
+Data: 06 de Setembro de 2025
+Descritivo: Use ternário para determinar se um número é múltiplo de 5
 *******************************************************************************/
+
+<?php
+$num = 20;
+$mensagem = ($num % 5 == 0) ? "Múltiplo de 5" : "Não é múltiplo de 5";
+echo "$num: $mensagem\n";
+?>
