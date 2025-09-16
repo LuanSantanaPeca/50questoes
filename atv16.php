@@ -14,6 +14,11 @@ Componentes:
  25001459-2 - Eduardo Gritten dos Santos Spohr
  25142481-2 - 
  25356591-2 - Sadrak Araújo Leopoldino
-Data:
-Descritivo:
+Data: 10 de Setembro de 2025
+Descritivo: Verifique se 10 é maior que 5
 *******************************************************************************/
+
+<?php
+ $maior = (10 > 5) ? "Sim" : "Não";
+ echo "10 é maior que 5? $maior\n";
+?>
