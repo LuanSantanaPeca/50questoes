@@ -14,6 +14,10 @@ Componentes:
  25001459-2 - Eduardo Gritten dos Santos Spohr
  25142481-2 - 
  25356591-2 - Sadrak Araújo Leopoldino
-Data:
-Descritivo:
+Data: 15/09/2025
+Descritivo: Verifique se 0 é idêntico a false
 *******************************************************************************/
+<?php
+$identico = (0 === false) ? "Sim" : "Não";
+echo "0 é idêntico a false? $identico\n";
+?>
