@@ -19,7 +19,7 @@ Descritivo: Crie um programa que use %= para armazenar o resto de uma divisão
 *******************************************************************************/
 <?php
 $numero = 100;
-$divisor = 12;
+$divisor = 10;
 
 if ($divisor != 0) {
     $numero %= $divisor; // operador %= (resto da divisão)
