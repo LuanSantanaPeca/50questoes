@@ -14,7 +14,7 @@ Componentes:
  25001459-2 - Eduardo Gritten dos Santos Spohr
  25142481-2 - Isabelli Azevedo da Silva
  25356591-2 - Sadrak Araújo Leopoldino
-Data: 01/09/2025
+Data:01/09/2025
 Descritivo: Escreva um código que calcule o IMC e calcule o resultado
 *******************************************************************************/
 
