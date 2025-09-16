@@ -14,6 +14,12 @@ Componentes:
  25001459-2 - Eduardo Gritten dos Santos Spohr
  25142481-2 - 
  25356591-2 - Sadrak Araújo Leopoldino
-Data:
-Descritivo:
+Data: 12 de Setembro de 2025
+Descritivo: Crie um ternário que retorne "Aprovado" se nota >= 7, senão "Reprovado"
 *******************************************************************************/
+
+<?php
+$nota = 6.5;
+$status = ($nota >= 7) ? "Aprovado" : "Reprovado";
+echo "Status: $status\n";
+?>
