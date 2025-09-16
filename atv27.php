@@ -14,6 +14,15 @@ Componentes:
  25001459-2 - Eduardo Gritten dos Santos Spohr
  25142481-2 - 
  25356591-2 - Sadrak Araújo Leopoldino
-Data:
-Descritivo:
+Data: 15/09/2025
+Descritivo: Teste se uma variável é maior que 100 OU menor que 50
 *******************************************************************************/
+<?php
+ $valor = 115;
+ 
+ if ($valor > 100 || $valor < 50) {
+     echo "O valor $valor é maior que 100 ou menor que 50.";
+ } else {
+     echo "O valor $valor está entre 50 e 100.";
+ }
+?>
