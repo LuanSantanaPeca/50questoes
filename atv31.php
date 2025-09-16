@@ -14,6 +14,17 @@ Componentes:
  25001459-2 - Eduardo Gritten dos Santos Spohr
  25142481-2 - 
  25356591-2 - Sadrak Araújo Leopoldino
-Data:
-Descritivo:
+Data: 16/09/2025
+Descritivo: Crie uma condição que verifique se uma pessoa é maior de idade
 *******************************************************************************/
+
+<?php
+echo "Digite sua idade:  ";
+$idade = (int) trim(fgets(STDIN));
+
+if ($idade >= 18) {
+    echo "Você é maior de idade.\n";
+} else {
+    echo "Você é menor de idade.\n";
+}
+?>
