@@ -21,5 +21,6 @@ Descritivo: Compare se 10 (string) é igual a 10 (número)
 <?php
 $igual = ("10" == 10) ? "Sim" : "Não";
 $identico = ("10" === 10)?"Sim" : "Não";
-echo "\"10\" é igual a 10? $igual\n";
+echo "\"10\" é igual a 10? $igual<br>";
+echo "\"10\" é idêntico a 10? $identico<br>";
 ?>
