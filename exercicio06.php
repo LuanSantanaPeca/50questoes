@@ -14,8 +14,8 @@ Componentes:
  25001459-2 - Eduardo Gritten dos Santos Spohr
  25142481-2 - 
  25356591-2 - Sadrak Araújo Leopoldino
-Data:
-Descritivo:
+Data: 15 de Setembro de 2025
+Descritivo: Faça um script que calcule a média de 3 números
 *******************************************************************************/
 
 <?php
@@ -31,3 +31,4 @@ echo "Média = $media <br><br>";
 
 
 ?>
+
