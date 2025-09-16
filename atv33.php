@@ -14,6 +14,17 @@ Componentes:
  25001459-2 - Eduardo Gritten dos Santos Spohr
  25142481-2 - 
  25356591-2 - Sadrak Araújo Leopoldino
-Data:
-Descritivo:
+Data: 16/09/2025
+Descritivo: Escreva um script que determine se um número é par ou ímpar.
 *******************************************************************************/
+<?php
+
+$numero = 4;
+
+
+if ($numero % 2 == 0) {
+    echo "O número $numero é par.";
+} else {
+    echo "O número $numero é ímpar.";
+}
+?>
