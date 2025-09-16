@@ -14,6 +14,12 @@ Componentes:
  25001459-2 - Eduardo Gritten dos Santos Spohr
  25142481-2 - 
  25356591-2 - Sadrak Araújo Leopoldino
-Data:
-Descritivo:
+Data: 10 de Setembro de 2025
+Descritivo: Crie uma expressão ternária que verifique se um ano é bissexto
 *******************************************************************************/
+
+<?php
+$ano = 2023;
+$bissexto = (($ano % 4 == 0 && $ano % 100 != 0) || ($ano % 400 == 0)) ? "Bissexto" : "Não bissexto";
+echo "$ano é $bissexto\n";
+?>
