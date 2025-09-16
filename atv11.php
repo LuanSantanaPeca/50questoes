@@ -14,6 +14,12 @@ Componentes:
  25001459-2 - Eduardo Gritten dos Santos Spohr
  25142481-2 - 
  25356591-2 - Sadrak Araújo Leopoldino
-Data:
-Descritivo:
+Data: 16 de setembro de 2025
+Descritivo: Use operadores de atribuição ppara incrementar uma variável em 5
 *******************************************************************************/
+<?php
+$numero = 10;
+echo "O valor original era: $numero<br>";
+$numero += 5; // operador de atribuição
+echo "O valor final é: $numero";
+?>
