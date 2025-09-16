@@ -14,6 +14,12 @@ Componentes:
  25001459-2 - Eduardo Gritten dos Santos Spohr
  25142481-2 - 
  25356591-2 - Sadrak Araújo Leopoldino
-Data:
-Descritivo:
+Data: 10 de Setembro de 2025
+Descritivo: Use o operador ternário para verificar se um número é positivo ou negativo
 *******************************************************************************/
+
+<?php
+$num = -3;
+$resultado = ($num >= 0) ? "Positivo" : "Negativo";
+echo "$num é $resultado\n";
+?>
