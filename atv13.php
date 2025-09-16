@@ -14,6 +14,12 @@ Componentes:
  25001459-2 - Eduardo Gritten dos Santos Spohr
  25142481-2 - 
  25356591-2 - Sadrak Araújo Leopoldino
-Data:
-Descritivo:
+Data: 16 de setembro de 2025
+Descritivo: Faça um script que use *= para dobrar o valor de uma variável
 *******************************************************************************/
+<?php
+$num = 8;
+echo "Valor original: $num<br>";
+$num *= 2;
+echo "Valor dobrado: $num<br>";
+?>
