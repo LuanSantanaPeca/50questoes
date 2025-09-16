@@ -14,6 +14,15 @@ Componentes:
  25001459-2 - Eduardo Gritten dos Santos Spohr
  25142481-2 - 
  25356591-2 - Sadrak Araújo Leopoldino
-Data:
-Descritivo:
+Data: 16/09/2025
+Descritivo: Verifique se um número é par E positivo
 *******************************************************************************/
+<?php
+ $numero = 86;
+ 
+ if ($numero % 2 == 0 && $numero > 0) {
+     echo "O número $numero é par e positivo.";
+ } else {
+     echo "O número $numero não é par e positivo.";
+ }
+?>
