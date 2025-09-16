@@ -12,7 +12,7 @@ Componentes:
  25324764-2 - Gabriel Eduardo Diniz
  25016187-2 - Michel Bueno Chacon
  25001459-2 - Eduardo Gritten dos Santos Spohr
- 25142481-2 - 
+ 25142481-2 - Isabelli Azevedo da Silva
  25356591-2 - Sadrak Araújo Leopoldino
 Data: 15 de Setembro de 2025
 Descritivo: Crie um código que calcule a área de um círculo (πr²)
@@ -29,3 +29,4 @@ echo "Área = " . round($area, 2) . "<br><br>";
 
 
 ?>
+
