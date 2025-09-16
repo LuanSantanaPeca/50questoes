@@ -14,6 +14,17 @@ Componentes:
  25001459-2 - Eduardo Gritten dos Santos Spohr
  25142481-2 - 
  25356591-2 - Sadrak Araújo Leopoldino
-Data:
-Descritivo:
+Data: 14 de Setembro de 2025
+Descritivo: Teste se uma string é menor que outra em ordem alfabética
 *******************************************************************************/
+
+<?php
+$str1 = "Banana";
+$str2 = "Maçã";
+
+if ($str1 < $str2) {
+    echo "$str1 vem antes de $str2 na ordem alfabética";
+} else {
+    echo "$str1 vem depois de $str2 na ordem alfabética";
+}
+?>
