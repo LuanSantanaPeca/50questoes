@@ -18,8 +18,8 @@ Data: 16 de setembro de 2025
 Descritivo: Faça um script que use *= para dobrar o valor de uma variável
 *******************************************************************************/
 <?php
-$num = 8;
-echo "Valor original: $num<br>";
-$num *= 2;
-echo "Valor dobrado: $num<br>";
+$numero = 8;
+echo "Valor original: $numero<br>";
+$numero *= 2;
+echo "Valor dobrado: $numero<br>";
 ?>
