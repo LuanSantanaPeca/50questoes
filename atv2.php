@@ -12,6 +12,8 @@ Componentes:
  25324764-2 - Gabriel Eduardo Diniz
  25016187-2 - Michel Bueno Chacon
  25001459-2 - Eduardo Gritten dos Santos Spohr
+ 25142481-2 - 
+ 25356591-2 - Sadrak Araújo Leopoldino
 Data: 15 de setembro de 2025
 Descritivo: Crie um script que subtraia 15 de 45 e mostre o resultado
 *******************************************************************************/
