@@ -14,6 +14,17 @@ Componentes:
  25001459-2 - Eduardo Gritten dos Santos Spohr
  25142481-2 - 
  25356591-2 - Sadrak Araújo Leopoldino
-Data:
-Descritivo:
+Data: 16 de setembro de 2025
+Descritivo: Crie um programa que use %= para armazenar o resto de uma divisão
 *******************************************************************************/
+<?php
+$numero = 100;
+$divisor = 12;
+
+if ($divisor != 0) {
+    $numero %= $divisor; // operador %= (resto da divisão)
+    echo "O resto da divisão é: " . $numero;
+} else {
+    echo "Erro: Divisão por zero não é permitida.";
+}
+?>
