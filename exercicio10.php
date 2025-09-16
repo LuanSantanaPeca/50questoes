@@ -12,8 +12,10 @@ Componentes:
  25324764-2 - Gabriel Eduardo Diniz
  25016187-2 - Michel Bueno Chacon
  25001459-2 - Eduardo Gritten dos Santos Spohr
+ 25142481-2 - 
+ 25356591-2 - Sadrak Araújo Leopoldino
 Data: 15 de Setembro de 2025
-Descritivo: 10.Escreva um script que converta minutos em horas e minutos
+Descritivo: Escreva um script que converta minutos em horas e minutos
 *******************************************************************************/
 
 <?php
@@ -24,4 +26,5 @@ $restoMin = $minutos % 60;
 
 echo "<h3>Converter minutos em horas e minutos</h3>";
 echo "$minutos minutos = $horas horas e $restoMin minutos <br>";
+
 ?>
