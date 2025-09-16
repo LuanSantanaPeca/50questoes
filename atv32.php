@@ -14,6 +14,24 @@ Componentes:
  25001459-2 - Eduardo Gritten dos Santos Spohr
  25142481-2 - 
  25356591-2 - Sadrak Araújo Leopoldino
-Data:
-Descritivo:
+Data:16/09/2025
+Descritivo: Faça um programa que classifique notas (A, B, C, D, F)
+
 *******************************************************************************/
+<?php
+
+$nota = 85; 
+
+if ($nota >= 90 && $nota <= 100) {
+    echo "Classificação: A\n";
+} elseif ($nota >= 80) {
+    echo "Classificação: B\n";
+} elseif ($nota >= 70) {
+    echo "Classificação: C\n";
+} elseif ($nota >= 60) {
+    echo "Classificação: D\n";
+} elseif ($nota >= 0) {
+    echo "Classificação: F\n";
+} else {
+    echo "Nota inválida.\n";
+}
