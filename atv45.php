@@ -14,6 +14,12 @@ Componentes:
  25001459-2 - Eduardo Gritten dos Santos Spohr
  25142481-2 - 
  25356591-2 - Sadrak Araújo Leopoldino
-Data:
-Descritivo:
+Data: 12 de Setembro de 2025
+Descritivo: Use operador ternário para verificar se uma string está vazia
 *******************************************************************************/
+
+<?php
+$str = "";
+$mensagem = (empty($str)) ? "String vazia" : "String não vazia";
+echo "$mensagem\n";
+?>
