@@ -14,6 +14,20 @@ Componentes:
  25001459-2 - Eduardo Gritten dos Santos Spohr
  25142481-2 - 
  25356591-2 - Sadrak Araújo Leopoldino
-Data:
-Descritivo:
+Data:02/09/2025
+Descritivo: Faça um programa que converta temperatura entre Celsius e Fahrennheit baseado em uma escolha
 *******************************************************************************/
+<?php
+$temperatura = 30;
+$tipo = "C"; // "C" para Celsius para Fahrenheit, "F" para Fahrenheit para Celsius
+
+if ($tipo == "C") {
+    $resultado = $temperatura * 9 / 5 + 32;
+    echo "$temperatura °C = $resultado °F\n";
+} elseif ($tipo == "F") {
+    $resultado = ($temperatura - 32) * 5 / 9;
+    echo "$temperatura °F = $resultado °C\n";
+} else {
+    echo "Tipo inválido\n";
+}
+?>
