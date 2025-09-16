@@ -14,6 +14,12 @@ Componentes:
  25001459-2 - Eduardo Gritten dos Santos Spohr
  25142481-2 - 
  25356591-2 - Sadrak Araújo Leopoldino
-Data:
-Descritivo:
+Data: 10 de Setembro de 2025
+Descritivo: Crie uma expressão ternário que retorne "Par" ou "Ímpar" baseado em um número
 *******************************************************************************/
+
+<?php
+$num = 11;
+$par_ou_impar = ($num % 2 == 0) ? "Par" : "Ímpar";
+echo "$num é $par_ou_impar\n";
+?>
