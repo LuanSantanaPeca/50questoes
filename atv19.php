@@ -14,6 +14,17 @@ Componentes:
  25001459-2 - Eduardo Gritten dos Santos Spohr
  25142481-2 - 
  25356591-2 - Sadrak Araújo Leopoldino
-Data:
-Descritivo:
+Data: 14 de Setembro de 2025
+Descritivo: Compare se um número é diferente de outro
 *******************************************************************************/
+
+<?php
+$numero1 = 85;
+$numero2 = 100;
+
+if ($numero1 != $numero2) {
+    echo "$numero1 é diferente de $numero2";
+} else {
+    echo "$numero1 é igual a $numero2";
+}
+?>
