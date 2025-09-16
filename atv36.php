@@ -23,12 +23,12 @@ $peso = 70; // kg
 $altura = 1.75; // metros
 $imc = $peso / ($altura ** 2);
 if ($imc < 18.5) {
-    echo "IMC: $imc - Abaixo do peso<br>";
+    echo "IMC: $imc - Abaixo do peso\n";
 } elseif ($imc < 25) {
-    echo "IMC: $imc - Peso normal<br>";
+    echo "IMC: $imc - Peso normal\n";
 } elseif ($imc < 30) {
-    echo "IMC: $imc - Sobrepeso<br>";
+    echo "IMC: $imc - Sobrepeso\n";
 } else {
-    echo "IMC: $imc - Obesidade<br>";
+    echo "IMC: $imc - Obesidade\n";
 }
 ?>
