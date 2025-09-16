@@ -14,6 +14,12 @@ Componentes:
  25001459-2 - Eduardo Gritten dos Santos Spohr
  25142481-2 - 
  25356591-2 - Sadrak Araújo Leopoldino
-Data:
-Descritivo:
+Data: 07 de Setembro de 2025
+Descritivo: Use operador ternário aninhado para classificar um número como positivo, negativo ou zero
 *******************************************************************************/
+
+<?php
+$num = 0;
+$classificacao = ($num > 0) ? "Positivo" : (($num < 0) ? "Negativo" : "Zero");
+echo "$num é $classificacao\n";
+?>
