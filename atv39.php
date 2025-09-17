@@ -14,19 +14,64 @@ Componentes:
  25001459-2 - Eduardo Gritten dos Santos Spohr
  25142481-2 - Isabelli Azevedo da Silva
  25356591-2 - Sadrak Araújo Leopoldino
-Data:02/09/2025
+Data:14/09/2025
 Descritivo: Escreva um script que determine o maior entre três números
 *******************************************************************************/
 <?php
-$a = 10;
-$b = 25;
-$c = 15;
-$maior = $a;
-if ($b > $maior) {
-    $maior = $b;
+
+$num1 = 2;
+
+$num2 = 4;
+
+$num3 = 3;
+
+$maior = $num1;
+
+$menor = $num1;
+
+$meio = 0;
+
+if($num2 > $maior){
+
+$maior = $num2;
+
 }
-if ($c > $maior) {
-    $maior = $c;
+
+if($num3 > $maior){
+
+$maior = $num3;
+
 }
-echo "O maior número é: $maior\n";
+
+if($num2 < $menor){
+
+$menor = $num2;
+
+}
+
+if($num3 < $menor){
+
+$menor = $num3;
+
+}
+
+if($num1 != $maior && $num1 != $menor){
+
+$meio = $num1;
+
+}
+
+if($num2 != $maior && $num2 != $menor){
+
+$meio = $num2;
+
+}
+
+if($num3 != $maior && $num3 != $menor){
+
+$meio = $num3;
+
+}
+
+echo $maior . '   ' . $meio . '   ' . $menor;
 ?>
