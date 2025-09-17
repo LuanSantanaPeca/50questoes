@@ -14,21 +14,32 @@ Componentes:
  25001459-2 - Eduardo Gritten dos Santos Spohr
  25142481-2 - Isabelli Azevedo da Silva
  25356591-2 - Sadrak Araújo Leopoldino
-Data:01/09/2025
+Data:14/09/2025
 Descritivo: Escreva um código que calcule o IMC e calcule o resultado
 *******************************************************************************/
-
 <?php
-$peso = 70; // kg
-$altura = 1.75; // metros
+$altura = 1.90;
+$peso = 120;
+
 $imc = $peso / ($altura ** 2);
-if ($imc < 18.5) {
-    echo "IMC: $imc - Abaixo do peso\n";
-} elseif ($imc < 25) {
-    echo "IMC: $imc - Peso normal\n";
-} elseif ($imc < 30) {
-    echo "IMC: $imc - Sobrepeso\n";
-} else {
-    echo "IMC: $imc - Obesidade\n";
+
+$dicionario = [
+    18.5 => "Abaixo do peso",
+    24.9 => "Peso normal",
+    29.9 => "Sobrepeso",
+    34.9 => "Obesidade grau 1",
+    39.9 => "Obesidade grau 2",
+];
+
+foreach($dicionario as $key => $value){
+    //Se a chave for menor que 40, então testa os valores de acordo com o IMC. 
+    if($key < 40.0){
+        if($imc <= $key){
+            echo PHP_EOL."$value";
+            break;
+        }
+    }else{ //Se a chave for maior ou igual a 40
+        echo PHP_EOL."$value";
+    }
 }
 ?>
